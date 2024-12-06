@@ -1,20 +1,20 @@
 [[inbound]]
 protocol = "vless"
-uuid = "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8"
+uuid = "0fbf4f81-2598-4b6a-a623-0ead4cb9efa9"
 path = "/vless"
 
 [[inbound]]
 protocol = "vmess"
-uuid = "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8"
+uuid = "0fbf4f81-2598-4b6a-a623-0ead4cb9efa9"
 path = "/vmess"
 
 [[inbound]]
 protocol = "trojan"
-path = "/trojan"
+path = "/trojan1"
 password = "test"
 
 [outbound]
-addresses = ["relay1.bepass.org"]
+addresses = ["relay.66666688888888.cc"]
 port = 6666
 protocol = "relay_v1"
 match = [
